@@ -15,7 +15,7 @@ if choice!=1 and choice!=2:
     print("Wrong input")
     exit(0)
 main_list=['MOVIE','FRUIT','PROGRAMMING_LANGUAGE']
-random.shuffle(main_list)
+random.shuffle(main_list)   #shuffling the elements of main list
 if main_list[0]=='FRUIT':
     fruit=['APPLE','MANGO','GUAVA','LITCHI','BANANA','ORANGE','COCONUT','BLACKPLUM',]
     random.shuffle(fruit)
